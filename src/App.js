@@ -1,18 +1,21 @@
 import React from 'react'
-import ABOUTME from './components/home/ABOUTME'
-import Home from './components/home/Home'
-import Resume from './components/home/Resume'
-import Skills from './components/home/Skills'
+import Aboutme from './Aboutme/Aboutme'
+import Home from './Components/home/Home'
+import Contact from './Contact/Contact.js/Contact'
+import Footer from './Fotter/Footer'
+import Navbar from './Navbar/Navbar'
+import Skills from './Skills/Skills'
 
 
 const App = () => {
   return (
     <>
+    <Navbar/>
     <Home/>
-    <ABOUTME/>
+    <Aboutme/>
     <Skills/>
-    <Resume/>
-    
+    <Contact/>
+    <Footer/>
     
     </>
   )
